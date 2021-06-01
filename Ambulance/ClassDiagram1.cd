@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ambulance.Controllers.BrigadeController">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQAAIAAQAAAKAAAAQBAKAAEAQAAAAAAAACAAEAEA=</HashCode>
+      <FileName>Controllers\BrigadeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ambulance.Controllers.PatientController">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PatientController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ambulance.HighQualityBrigade">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Models\HighQualityBrigade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ambulance.Brigade">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgEAAAAAAAAIABAAAAAAAAAAAAAAAAAAAAACEA=</HashCode>
+      <FileName>Models\Brigade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ambulance.LowQualityBrigade">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Models\LowQualityBrigade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ambulance.Illness">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Models\Illness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ambulance.Patient" Collapsed="true">
+    <Position X="7" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAEAAAAAAAACQAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Patient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ambulance.PatientsGenerator">
+    <Position X="7" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAgAAAAAAAAAAAECAAAAAAAgAEAAAAA=</HashCode>
+      <FileName>Models\PatientsGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ambulance.BaseObjectsInitializer">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAACAAAAAEAAAAAAAQA=</HashCode>
+      <FileName>Models\BaseObjectsInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApp1.Model.FileManager&lt;T&gt;">
+    <Position X="4.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAACAQCAAAAACAAAAAAAAAAABAA=</HashCode>
+      <FileName>Managers\FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ambulance.FormChooseBrigade" Collapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABIAAACAAAAiAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>View\FormChooseBrigade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ambulance.FormMenuForm" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAACCAAACCAAAkAAAAAAAAAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ambulance.PatientsList" Collapsed="true">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAICAAABgBAACAAAACAEEABAAAAQAIAAAAAAA=</HashCode>
+      <FileName>View\FormPatientList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ambulance.GroupOfDoctors" Collapsed="true">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAAAAKAAABIAAACAQAACAgAAAAAEAAAAQAAgQAI=</HashCode>
+      <FileName>View\GroupOfDoctors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Ambulance.FirstNames" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAYAAAgAAgAAAAAEAASAAoAAQSAAgKAAAAAAQ=</HashCode>
+      <FileName>Enums\FirstNames.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ambulance.LastNames" Collapsed="true">
+    <Position X="10.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAAAAEAAAAKEAgIiAAQAAACIAEAEAgAAABAQCAAA=</HashCode>
+      <FileName>Enums\LastNames.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ambulance.Priorities" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\Priorities.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ambulance.Specializations" Collapsed="true">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\Specializations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Ambulance.Status" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAI=</HashCode>
+      <FileName>Enums\Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
